@@ -1,13 +1,15 @@
 [project]
-name = "poetry init"
-version = "poetry shell"
+name = "aula08"
+version = "1.0"
 description = "Aula 08"
 authors = [
-    {name = "Edinilson Lopez",email = "edinilson@l.com"}
+    {name = "Edinilson Lopez",email = "edinilson@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "pandera (>=0.22.1,<0.23.0)"
 ]
 
 
